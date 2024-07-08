@@ -2,10 +2,6 @@
   {
     "source":"apache/skywalking-java-agent:9.2.0-java17",
     "target":"ccr.ccs.tencentyun.com/devopsvip/skywalking-java-agent:9.2.0-java17"
-  },
-  {
-    "source": "gitlab/gitlab-ce:16.2.2-ce.0",
-    "target": "ccr.ccs.tencentyun.com/devopsvip/gitlab-ce:16.2.2-ce.0"
   }
 ]
 
