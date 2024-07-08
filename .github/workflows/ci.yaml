@@ -18,6 +18,7 @@ jobs:
     steps:
     - name: Run Push Docker images
       run: |
+        pwd
         mkdir -p images
         python uploader.py ${{ secrets.TENCENTDOCKER_USER}} ${{ secrets.TENCENTDOCKER_PASSWD}} ${REGISTRY_URL}
     - uses: actions/upload-artifact@v2
