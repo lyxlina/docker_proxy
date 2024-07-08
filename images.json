@@ -56,10 +56,6 @@
     "target":"ccr.ccs.tencentyun.com/devopslina/ubuntu"
   },
   {
-    "source":"busybox:1.28.4",
-    "target":"ccr.ccs.tencentyun.com/devopsvip/busybox:1.28.4"
-  },
-  {
   "source": "redis:7.2.4",
   "target": "ccr.ccs.tencentyun.com/devopsvip/redis:7.2.4"
   },
