@@ -1,0 +1,13 @@
+[
+  {
+    "source":"apache/skywalking-java-agent:9.2.0-java17",
+    "target":"ccr.ccs.tencentyun.com/devopsvip/skywalking-java-agent:9.2.0-java17"
+  }
+]
+
+
+
+
+
+
+
