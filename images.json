@@ -1,52 +1,16 @@
 [
   {
-   "source": "k8s.gcr.io/ingress-nginx/controller:v1.2.0",
-   "target": "ccr.ccs.tencentyun.com/devopslina/controller:v1.2.0"
- },
- {
-   "source": "k8s.gcr.io/ingress-nginx/kube-webhook-certgen:v1.1.1",
-   "target": "ccr.ccs.tencentyun.com/devopslina/kube-webhook-certgen:v1.1.1"
- },
- {
-  "source": "sonarqube:9.9.0-community",
-  "target": "ccr.ccs.tencentyun.com/devopslina/sonarqube:9.9.0-community"
-},
-{
-  "source": "sonatype/nexus3:3.60.0",
-  "target": "ccr.ccs.tencentyun.com/devopslina/nexus3:3.60.0"
-},
-{
-  "source": "gitlab/gitlab-ce:16.2.2-ce.0",
-  "target": "ccr.ccs.tencentyun.com/devopslina/gitlab-ce:16.2.2-ce.0"
-},
-{
-  "source": "gitlab/gitlab-runner:alpine-v16.2.0",
-  "target": "ccr.ccs.tencentyun.com/devopslina/gitlab-runner:alpine-v16.2.0"
-},
-{
-  "source": "jenkins/inbound-agent:latest-jdk17",
-  "target": "ccr.ccs.tencentyun.com/devopslina/inbound-agent:latest-jdk17"
-},
+    "source":"registry.k8s.io/coredns/coredns:v1.9.3",
+    "target":"ccr.ccs.tencentyun.com/devopslina/coredns:v1.9.3"
+  },
   {
-  "source": "jenkins/inbound-agent:latest-jdk11",
-  "target": "ccr.ccs.tencentyun.com/devopslina/inbound-agent:latest-jdk11"
-},
- {
-  "source": "jenkins/jenkins:2.415-jdk11",
-  "target": "ccr.ccs.tencentyun.com/devopslina/jenkins:2.415-jdk11"
-},
-{
-  "source":"docker.elastic.co/elasticsearch/elasticsearch:7.5.1",
-  "target":"ccr.ccs.tencentyun.com/devopslina/elasticsearch:7.5.1"
-},
-{
-  "source":"skywalking.docker.scarf.sh/apache/skywalking-oap-server:9.2.0",
-  "target":"ccr.ccs.tencentyun.com/devopslina/skywalking-oap-server:9.2.0"
-},
-{
-  "source":"skywalking.docker.scarf.sh/apache/skywalking-ui:9.2.0",
-  "target":"ccr.ccs.tencentyun.com/devopslina/skywalking-ui:9.2.0"
-}
+    "source":"registry.k8s.io/etcd:3.5.5-0",
+    "target":"ccr.ccs.tencentyun.com/devopslina/etcd:3.5.5-0"
+  },
+  {
+    "source":"registry.k8s.io/kube-apiserver:v1.25.4",
+    "target":"ccr.ccs.tencentyun.com/devopslina/kube-apiserver:v1.25.4"
+  }
 ]
 
 
