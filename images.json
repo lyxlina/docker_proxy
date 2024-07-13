@@ -10,6 +10,10 @@
   {
     "source":"registry.k8s.io/kube-apiserver:v1.25.4",
     "target":"ccr.ccs.tencentyun.com/devopslina/kube-apiserver:v1.25.4"
+  },
+  {
+    "source":"k8s.gcr.io/pause:3.8",
+    "target":"ccr.ccs.tencentyun.com/devopslina/pause:3.8"
   }
 ]
 
