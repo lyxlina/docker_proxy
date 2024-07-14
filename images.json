@@ -14,6 +14,10 @@
   {
     "source":"k8s.gcr.io/pause:3.8",
     "target":"ccr.ccs.tencentyun.com/devopslina/pause:3.8"
+  },
+  {
+    "source":"docker.io/rancher/mirrored-flannelcni-flannel:v0.20.1",
+    "target":"ccr.ccs.tencentyun.com/devopslina/mirrored-flannelcni-flannel:v0.20.1"
   }
 ]
 
