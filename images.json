@@ -36,8 +36,16 @@
    "target": "ccr.ccs.tencentyun.com/devopslina/nginx:latest"
  },
  {
-  "source": "docker.io/busybox:1.28",
-  "target": "ccr.ccs.tencentyun.com/devopslina/busybox:1.28"
+  "source": "quay.io/argoproj/argocd:v2.6.7",
+  "target": "ccr.ccs.tencentyun.com/devopslina/argocd:v2.6.7"
+},
+{
+ "source": "docker.io/redis:7.0.8-alpine",
+ "target": "ccr.ccs.tencentyun.com/devopslina/redis:7.0.8-alpine"
+},
+{
+ "source": "ghcr.io/dexidp//dex:v2.35.3",
+ "target": "ccr.ccs.tencentyun.com/devopslina/dex:v2.35.3"
 }
 ]
 
