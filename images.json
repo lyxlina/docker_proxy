@@ -44,7 +44,7 @@
  "target": "ccr.ccs.tencentyun.com/devopslina/redis:7.0.8-alpine"
 },
 {
- "source": "ghcr.io/dexidp//dex:v2.35.3",
+ "source": "ghcr.io/dexidp/dex:v2.35.3",
  "target": "ccr.ccs.tencentyun.com/devopslina/dex:v2.35.3"
 }
 ]
