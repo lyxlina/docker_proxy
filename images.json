@@ -34,7 +34,11 @@
   {
    "source": "docker.io/nginx:latest",
    "target": "ccr.ccs.tencentyun.com/devopslina/nginx:latest"
- }
+ },
+ {
+  "source": "docker.io/busybox:1.28",
+  "target": "ccr.ccs.tencentyun.com/devopslina/busybox:1.28"
+}
 ]
 
 
