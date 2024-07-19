@@ -18,6 +18,14 @@
 {
  "source": "quay.io/metallb/speaker:v0.13.7",
  "target": "ccr.ccs.tencentyun.com/devopslina/metallb-speaker:v0.13.7"
+},
+{
+ "source": "jenkins/jenkins:2.415-jdk11",
+ "target": "ccr.ccs.tencentyun.com/devopslina/jenkins:2.415-jdk11"
+},
+{
+"source": "jenkins/inbound-agent:latest-jdk11",
+"target": "ccr.ccs.tencentyun.com/devopslina/inbound-agent:latest-jdk11"
 }
 ]
 
