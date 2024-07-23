@@ -1,7 +1,7 @@
 [
   {
-    "source": "gcr.io/kaniko-project/executor:1.15.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/executor:1.15.0"
+    "source": "gcr.io/kaniko-project/executor:v1.15.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/executor:v1.15.0"
     }
 ]
 
