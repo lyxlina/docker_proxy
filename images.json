@@ -1,7 +1,7 @@
 [
   {
-    "source": "bitnami/kaniko:1.15.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/kaniko:1.15.0"
+    "source": "gcr.io/kaniko-project/executor:1.15.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/executor:1.15.0"
     }
 ]
 
