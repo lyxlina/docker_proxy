@@ -1,7 +1,7 @@
 [
   {
     "source": "sonatype/nexus3:latest",
-    "target": "ccr.ccs.tencentyun.com/devopslina/nexus3:latest"
+    "target": "ccr.ccs.tencentyun.com/pigservicelina/nexus3:latest"
   }
 ]
 
