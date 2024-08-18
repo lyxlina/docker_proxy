@@ -198,6 +198,10 @@
   {
     "source": "docker.io/istio/proxyv2:1.19.3",
     "target": "ccr.ccs.tencentyun.com/devopslina/istio-proxyv2:1.19.3"
+  },
+  {
+    "source": "docker.io/istio/examples-bookinfo-details-v1:1.18.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/istio-examples-bookinfo-details-v1:1.18.0"
   }
 
 ]
