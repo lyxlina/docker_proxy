@@ -190,7 +190,12 @@
 {
   "source": "gcr.io/kaniko-project/executor:v1.15.0",
   "target": "ccr.ccs.tencentyun.com/devopslina/executor:v1.15.0"
+  },
+  {
+    "source": "docker.io/istio/pilot:1.19.3",
+    "target": "ccr.ccs.tencentyun.com/devopslina/istio-pilot:1.19.3"
   }
+
 ]
 
 
