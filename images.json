@@ -1,7 +1,7 @@
 [
   {
-    "source": "docker.io/envoyproxy/envoy:v1.28.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/envoy:v1.28.0"
+    "source": "cnych/docker-http-server",
+    "target": "ccr.ccs.tencentyun.com/devopslina/cnych-docker-http-server"
   }
   
 
