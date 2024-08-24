@@ -1,7 +1,23 @@
 [
+ {
+    "source": "docker.io/library/python:3.11.5-slim-bookworm@sha256:a28fdf3bde6c0c97b656841669f6b4cc8164d0f34067c6ce6b5532effe94f8a7",
+    "target": "ccr.ccs.tencentyun.com/devopslina/python:3.11.5-slim-bookworm@sha256:a28fdf3bde6c0c97b656841669f6b4cc8164d0f34067c6ce6b5532effe94f8a7"
+  },
   {
-    "source": "docker.io/library/python:3.11.5-slim-bookworm",
-    "target": "ccr.ccs.tencentyun.com/devopslina/python:3.11.5-slim-bookworm"
+    "source": "docker.io/library/python:3.11.5-slim-bookworm@sha256:c188b00eab1158c5c9217724de50f7fb3992f20e907f76202a67449f4e8b142a",
+    "target": "ccr.ccs.tencentyun.com/devopslina/python:3.11.5-slim-bookworm@sha256:c188b00eab1158c5c9217724de50f7fb3992f20e907f76202a67449f4e8b142a"
+  },
+  {
+    "source": "docker.io/library/python:3.11.5-slim-bookworm@sha256:f02588c1a9106101e2d66733ebb82d9d6c65bbd338a776d1a34faccdf6c842db",
+    "target": "ccr.ccs.tencentyun.com/devopslina/python:3.11.5-slim-bookworm@sha256:f02588c1a9106101e2d66733ebb82d9d6c65bbd338a776d1a34faccdf6c842db"
+  },
+  {
+    "source": "docker.io/library/python:3.11.5-slim-bookworm@sha256:41cce0a771a38e59c16b79b2df39a6123fcaaa73e7c422e4962bb1a3bc1fd15b",
+    "target": "ccr.ccs.tencentyun.com/devopslina/python:3.11.5-slim-bookworm@sha256:41cce0a771a38e59c16b79b2df39a6123fcaaa73e7c422e4962bb1a3bc1fd15b"
+  },
+  {
+    "source": "docker.io/library/python:3.11.5-slim-bookworm@sha256:f76920251c5715d37083d0f55ed9192c0bf01b3c6f4acd968462c085f4953125",
+    "target": "ccr.ccs.tencentyun.com/devopslina/python:3.11.5-slim-bookworm@sha256:f76920251c5715d37083d0f55ed9192c0bf01b3c6f4acd968462c085f4953125"
   }
   
 
