@@ -1,41 +1,49 @@
 [
   {
-    "source": "docker.io/istio/examples-bookinfo-details-v1:1.18.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/examples-bookinfo-details-v1:1.18.0"
+    "source": "docker.io/grafana/grafana:9.5.5",
+    "target": "ccr.ccs.tencentyun.com/devopslina/grafana:9.5.5"
   },
   {
-    "source": "docker.io/istio/examples-bookinfo-mongodb:1.18.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/examples-bookinfo-mongodb:1.18.0"
+    "source": "docker.io/jaegertracing/all-in-one:1.46",
+    "target": "ccr.ccs.tencentyun.com/devopslina/jaegertracing-all-in-one:1.46"
   },
   {
-    "source": "docker.io/istio/examples-bookinfo-reviews-v1:1.18.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/examples-bookinfo-reviews-v1:1.18.0"
+    "source": "quay.io/kiali/kiali:1.72",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kiali:1.72"
   },
   {
-    "source": "docker.io/istio/examples-bookinfo-reviews-v2:1.18.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/examples-bookinfo-reviews-v2:1.18.0"
+    "source": "docker.io/grafana/loki:2.7.3",
+    "target": "ccr.ccs.tencentyun.com/devopslina/loki:2.7.3"
   },
   {
-    "source": "docker.io/istio/examples-bookinfo-reviews-v3:1.18.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/examples-bookinfo-reviews-v3:1.18.0"
+    "source": "prom/prometheus:v2.41.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/prometheus:v2.41.0"
   },
   {
-    "source": "docker.io/istio/examples-bookinfo-productpage-v1:1.18.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/examples-bookinfo-productpage-v1:1.18.0"
+    "source": "jimmidyson/configmap-reload:v0.5.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/configmap-reload:v0.5.0"
   },
   {
-    "source": "docker.io/istio/examples-bookinfo-mysqldb:1.18.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/examples-bookinfo-mysqldb:1.18.0"
+    "source": "prom/prometheus:v2.24.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/prometheus:v2.24.0"
   },
   {
-    "source": "docker.io/istio/examples-bookinfo-ratings-v1:1.18.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/examples-bookinfo-ratings-v1:1.18.0"
+    "source": "istioecosystem/vm-discovery:latest",
+    "target": "ccr.ccs.tencentyun.com/devopslina/vm-discovery:latest"
   },
   {
-    "source": "docker.io/istio/examples-bookinfo-ratings-v2:1.18.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/examples-bookinfo-ratings-v2:1.18.0"
+    "source": "apache/skywalking-oap-server:9.1.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/skywalking-oap-server:9.1.0"
+  },
+  {
+    "source": "apache/skywalking-ui:9.1.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/skywalking-ui:9.1.0"
+  },
+  {
+    "source": "openzipkin/zipkin-slim:2.23.14",
+    "target": "ccr.ccs.tencentyun.com/devopslina/zipkin-slim:2.23.14"
   }
-
+  
 ]
 
 

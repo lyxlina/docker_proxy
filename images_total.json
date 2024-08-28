@@ -230,6 +230,42 @@
   {
     "source": "docker.io/library/python:3.11.5-slim-bookworm@sha256:f76920251c5715d37083d0f55ed9192c0bf01b3c6f4acd968462c085f4953125",
     "target": "ccr.ccs.tencentyun.com/devopslina/python:3.11.5-slim-bookworm-386"
+  },
+  {
+    "source": "docker.io/istio/examples-bookinfo-details-v1:1.18.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/examples-bookinfo-details-v1:1.18.0"
+  },
+  {
+    "source": "docker.io/istio/examples-bookinfo-mongodb:1.18.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/examples-bookinfo-mongodb:1.18.0"
+  },
+  {
+    "source": "docker.io/istio/examples-bookinfo-reviews-v1:1.18.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/examples-bookinfo-reviews-v1:1.18.0"
+  },
+  {
+    "source": "docker.io/istio/examples-bookinfo-reviews-v2:1.18.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/examples-bookinfo-reviews-v2:1.18.0"
+  },
+  {
+    "source": "docker.io/istio/examples-bookinfo-reviews-v3:1.18.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/examples-bookinfo-reviews-v3:1.18.0"
+  },
+  {
+    "source": "docker.io/istio/examples-bookinfo-productpage-v1:1.18.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/examples-bookinfo-productpage-v1:1.18.0"
+  },
+  {
+    "source": "docker.io/istio/examples-bookinfo-mysqldb:1.18.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/examples-bookinfo-mysqldb:1.18.0"
+  },
+  {
+    "source": "docker.io/istio/examples-bookinfo-ratings-v1:1.18.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/examples-bookinfo-ratings-v1:1.18.0"
+  },
+  {
+    "source": "docker.io/istio/examples-bookinfo-ratings-v2:1.18.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/examples-bookinfo-ratings-v2:1.18.0"
   }
 
 ]
