@@ -1,15 +1,7 @@
 [
   {
-    "source": "docker.io/grafana/grafana:9.5.5",
-    "target": "ccr.ccs.tencentyun.com/devopslina/grafana:9.5.5"
-  },
-  {
-    "source": "docker.io/jaegertracing/all-in-one:1.46",
-    "target": "ccr.ccs.tencentyun.com/devopslina/jaegertracing-all-in-one:1.46"
-  },
-  {
-    "source": "quay.io/kiali/kiali:1.72",
-    "target": "ccr.ccs.tencentyun.com/devopslina/kiali:1.72"
+    "source": "quay.io/kiali/kiali:v1.72",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kiali:v1.72"
   },
   {
     "source": "docker.io/grafana/loki:2.7.3",

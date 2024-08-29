@@ -266,6 +266,14 @@
   {
     "source": "docker.io/istio/examples-bookinfo-ratings-v2:1.18.0",
     "target": "ccr.ccs.tencentyun.com/devopslina/examples-bookinfo-ratings-v2:1.18.0"
+  },
+  {
+    "source": "docker.io/grafana/grafana:9.5.5",
+    "target": "ccr.ccs.tencentyun.com/devopslina/grafana:9.5.5"
+  },
+  {
+    "source": "docker.io/jaegertracing/all-in-one:1.46",
+    "target": "ccr.ccs.tencentyun.com/devopslina/jaegertracing-all-in-one:1.46"
   }
 
 ]
