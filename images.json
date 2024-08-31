@@ -1,39 +1,7 @@
 [
   {
-    "source": "quay.io/kiali/kiali:v1.72",
-    "target": "ccr.ccs.tencentyun.com/devopslina/kiali:v1.72"
-  },
-  {
-    "source": "docker.io/grafana/loki:2.7.3",
-    "target": "ccr.ccs.tencentyun.com/devopslina/loki:2.7.3"
-  },
-  {
-    "source": "prom/prometheus:v2.41.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/prometheus:v2.41.0"
-  },
-  {
-    "source": "jimmidyson/configmap-reload:v0.5.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/configmap-reload:v0.5.0"
-  },
-  {
-    "source": "prom/prometheus:v2.24.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/prometheus:v2.24.0"
-  },
-  {
-    "source": "istioecosystem/vm-discovery:latest",
-    "target": "ccr.ccs.tencentyun.com/devopslina/vm-discovery:latest"
-  },
-  {
-    "source": "apache/skywalking-oap-server:9.1.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/skywalking-oap-server:9.1.0"
-  },
-  {
-    "source": "apache/skywalking-ui:9.1.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/skywalking-ui:9.1.0"
-  },
-  {
-    "source": "openzipkin/zipkin-slim:2.23.14",
-    "target": "ccr.ccs.tencentyun.com/devopslina/zipkin-slim:2.23.14"
+    "source": "jimmidyson/configmap-reload:v0.8.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/configmap-reload:v0.8.0"
   }
   
 ]
