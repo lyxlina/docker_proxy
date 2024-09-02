@@ -1,7 +1,7 @@
 [
   {
-    "source": "jimmidyson/configmap-reload:v0.8.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/configmap-reload:v0.8.0"
+    "source": "docker.io/library/postgres:11@sha256:fdfb434d69d7884d6366840279dc3e721d1bd67cc1d02d51aeea7497f323fc5e",
+    "target": "ccr.ccs.tencentyun.com/devopslina/postgres:11-amd64"
   }
   
 ]

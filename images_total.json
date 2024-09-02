@@ -310,6 +310,10 @@
   {
     "source": "openzipkin/zipkin-slim:2.23.14",
     "target": "ccr.ccs.tencentyun.com/devopslina/zipkin-slim:2.23.14"
+  },
+  {
+    "source": "jimmidyson/configmap-reload:v0.8.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/configmap-reload:v0.8.0"
   }
 
 
