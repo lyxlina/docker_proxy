@@ -1,7 +1,7 @@
 [
   {
-    "source": "gitlab/gitlab-ee:14.3.0-ee.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/gitlab-ee:14.3.0-ee.0"
+    "source": "docker.io/library/ruby:latest",
+    "target": "ccr.ccs.tencentyun.com/devopslina/ruby:latest"
   }
   
 ]
