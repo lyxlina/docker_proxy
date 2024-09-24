@@ -326,6 +326,10 @@
   {
     "source": "docker.io/library/ruby:latest",
     "target": "ccr.ccs.tencentyun.com/devopslina/ruby:latest"
+  },
+  {
+    "source": "docker.io/kennethreitz/httpbin",
+    "target": "ccr.ccs.tencentyun.com/devopslina/httpbin"
   }
 
 
