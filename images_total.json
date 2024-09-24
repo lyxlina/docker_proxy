@@ -322,6 +322,10 @@
   {
     "source": "docker.io/library/alpine:latest",
     "target": "ccr.ccs.tencentyun.com/devopslina/alpine:latest"
+  },
+  {
+    "source": "docker.io/library/ruby:latest",
+    "target": "ccr.ccs.tencentyun.com/devopslina/ruby:latest"
   }
 
 
