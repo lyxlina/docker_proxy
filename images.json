@@ -2,10 +2,6 @@
   {
     "source": "docker.io/kennethreitz/httpbin",
     "target": "ccr.ccs.tencentyun.com/devopslina/httpbin"
-  },
-  {
-    "source": "curlimages/curl",
-    "target": "ccr.ccs.tencentyun.com/devopslina/curlimages"
   }
 
   
