@@ -330,6 +330,22 @@
   {
     "source": "docker.io/kennethreitz/httpbin",
     "target": "ccr.ccs.tencentyun.com/devopslina/httpbin"
+  },
+  {
+    "source": "curlimages/curl",
+    "target": "ccr.ccs.tencentyun.com/devopslina/curlimages"
+  },
+  {
+    "source": "docker.io/kong/httpbin",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kong-httpbin"
+  },
+  {
+    "source": "fortio/fortio:latest_release",
+    "target": "ccr.ccs.tencentyun.com/devopslina/fortio:latest_release"
+  },
+  {
+    "source": "docker.io/istio/tcp-echo-server:1.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/istio-tcp-echo-server:1.2"
   }
 
 
