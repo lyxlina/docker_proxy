@@ -346,6 +346,10 @@
   {
     "source": "docker.io/istio/tcp-echo-server:1.2",
     "target": "ccr.ccs.tencentyun.com/devopslina/istio-tcp-echo-server:1.2"
+  },
+  {
+    "source": "ubuntu:20.04",
+    "target": "ccr.ccs.tencentyun.com/devopslina/ubuntu:20.04"
   }
 
 
