@@ -1,7 +1,7 @@
 [
   {
-    "source": "k8s.gcr.io/metrics-server/metrics-server:v0.6.1",
-    "target": "ccr.ccs.tencentyun.com/devopslina/metrics-server:v0.6.1"
+    "source": "memcached",
+    "target": "ccr.ccs.tencentyun.com/devopslina/memcached"
   }
 ]
 
