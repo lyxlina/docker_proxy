@@ -310,7 +310,56 @@
   {
     "source": "openzipkin/zipkin-slim:2.23.14",
     "target": "ccr.ccs.tencentyun.com/devopslina/zipkin-slim:2.23.14"
+  },
+  {
+    "source": "jimmidyson/configmap-reload:v0.8.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/configmap-reload:v0.8.0"
+  },
+  {
+    "source": "docker.io/library/postgres:11@sha256:fdfb434d69d7884d6366840279dc3e721d1bd67cc1d02d51aeea7497f323fc5e",
+    "target": "ccr.ccs.tencentyun.com/devopslina/postgres:11-amd64"
+  },
+  {
+    "source": "docker.io/library/alpine:latest",
+    "target": "ccr.ccs.tencentyun.com/devopslina/alpine:latest"
+  },
+  {
+    "source": "docker.io/library/ruby:latest",
+    "target": "ccr.ccs.tencentyun.com/devopslina/ruby:latest"
+  },
+  {
+    "source": "docker.io/kennethreitz/httpbin",
+    "target": "ccr.ccs.tencentyun.com/devopslina/httpbin"
+  },
+  {
+    "source": "curlimages/curl",
+    "target": "ccr.ccs.tencentyun.com/devopslina/curlimages"
+  },
+  {
+    "source": "docker.io/kong/httpbin",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kong-httpbin"
+  },
+  {
+    "source": "fortio/fortio:latest_release",
+    "target": "ccr.ccs.tencentyun.com/devopslina/fortio:latest_release"
+  },
+  {
+    "source": "docker.io/istio/tcp-echo-server:1.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/istio-tcp-echo-server:1.2"
+  },
+  {
+    "source": "ubuntu:20.04",
+    "target": "ccr.ccs.tencentyun.com/devopslina/ubuntu:20.04"
+  },
+  {
+    "source": "registry.k8s.io/ingress-nginx/controller:v1.5.1@sha256:4ba73c697770664c1e00e9f968de14e08f606ff961c76e5d7033a4a9c593c629",
+    "target": "ccr.ccs.tencentyun.com/devopslina/ingress-nginx-controller:1.5.1"
+  },
+  {
+    "source": "registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20220916-gd32f8c343@sha256:39c5b2e3310dc4264d638ad28d9d1d96c4cbb2b2dcfb52368fe4e3c63f61e10f",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kube-webhook-certgen:v1.5.1"
   }
+
 
 ]
 

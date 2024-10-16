@@ -1,7 +1,7 @@
 [
   {
-    "source": "jimmidyson/configmap-reload:v0.8.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/configmap-reload:v0.8.0"
+    "source": "k8s.gcr.io/metrics-server/metrics-server:v0.6.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/metrics-server:v0.6.1"
   }
 ]
 
