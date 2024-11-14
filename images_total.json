@@ -366,6 +366,30 @@
   {
     "source": "memcached",
     "target": "ccr.ccs.tencentyun.com/devopslina/memcached"
+  },
+    {
+    "source": "docker.io/calico/cni:v3.19.4",
+    "target": "ccr.ccs.tencentyun.com/devopslina/calico-cni:v3.19.4"
+  },
+  {
+    "source": "docker.io/calico/pod2daemon-flexvol:v3.19.4",
+    "target": "ccr.ccs.tencentyun.com/devopslina/calico-pod2daemon-flexvol:v3.19.4"
+  },
+  {
+    "source": "docker.io/calico/node:v3.19.4",
+    "target": "ccr.ccs.tencentyun.com/devopslina/calico-node:v3.19.4"
+  },
+  {
+    "source": "quay.io/coreos/flannel:v0.13.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/calico-flannel:v0.13.0"
+  },
+  {
+    "source": "docker.io/calico/kube-controllers:v3.19.4",
+    "target": "ccr.ccs.tencentyun.com/devopslina/calico-kube-controllers:v3.19.4"
+  },
+  {
+    "source": "docker.io/calico/kube-controllers:v3.19.4",
+    "target": "ccr.ccs.tencentyun.com/devopslina/calico-kube-controllers:v3.19.4"
   }
 
 
