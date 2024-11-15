@@ -402,6 +402,10 @@
   {
     "source": "registry.k8s.io/autoscaling/vpa-recommender:1.2.1",
     "target": "ccr.ccs.tencentyun.com/devopslina/vpa-recommender:1.2.1"
+  },
+  {
+    "source": "registry.k8s.io/autoscaling/vpa-updater:1.2.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/vpa-updater:1.2.1"
   }
 
 
