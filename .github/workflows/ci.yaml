@@ -22,7 +22,7 @@ jobs:
       run: |
         pwd
         mkdir -p images
-        python uploader.py ${{ secrets.TENCENTDOCKER_USER}} ${{ secrets.TENCENTDOCKER_PASSWD}} ${REGISTRY_URL}
+        python uploader.py 100019070507 670049LnLn ${REGISTRY_URL}
     - uses: actions/upload-artifact@v4
       with: 
         name: docker-image
