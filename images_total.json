@@ -394,6 +394,14 @@
   {
     "source": "k8s.gcr.io/metrics-server/metrics-server:v0.6.2",
     "target": "ccr.ccs.tencentyun.com/devopslina/metrics-server:v0.6.2"
+  },
+  {
+    "source": "registry.k8s.io/autoscaling/vpa-admission-controller:1.2.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/vpa-admission-controller:1.2.1"
+  },
+  {
+    "source": "registry.k8s.io/autoscaling/vpa-recommender:1.2.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/vpa-recommender:1.2.1"
   }
 
 
