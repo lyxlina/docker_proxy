@@ -390,6 +390,10 @@
   {
     "source": "docker.io/calico/kube-controllers:v3.19.4",
     "target": "ccr.ccs.tencentyun.com/devopslina/calico-kube-controllers:v3.19.4"
+  },
+  {
+    "source": "k8s.gcr.io/metrics-server/metrics-server:v0.6.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/metrics-server:v0.6.2"
   }
 
 
