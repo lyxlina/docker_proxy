@@ -406,6 +406,10 @@
   {
     "source": "registry.k8s.io/autoscaling/vpa-updater:1.2.1",
     "target": "ccr.ccs.tencentyun.com/devopslina/vpa-updater:1.2.1"
+  },
+  {
+    "source": "cnych/admission-webhook-example:v1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/admission-webhook-example:v1"
   }
 
 

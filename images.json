@@ -1,7 +1,7 @@
 [
   {
-    "source": "cnych/admission-webhook-example:v1",
-    "target": "ccr.ccs.tencentyun.com/devopslina/admission-webhook-example:v1"
+    "source": "alpine/git:v2.45.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/alpine-git:v2.45.2"
   }
 ]
 
