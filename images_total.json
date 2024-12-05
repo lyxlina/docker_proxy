@@ -414,6 +414,10 @@
   {
     "source": "alpine/git:v2.45.2",
     "target": "ccr.ccs.tencentyun.com/devopslina/alpine-git:v2.45.2"
+  },
+  {
+    "source": "python:3.8.19",
+    "target": "ccr.ccs.tencentyun.com/devopslina/python:3.8.19"
   }
 
 
