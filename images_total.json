@@ -418,6 +418,14 @@
   {
     "source": "python:3.8.19",
     "target": "ccr.ccs.tencentyun.com/devopslina/python:3.8.19"
+  },
+  {
+    "source": "mirrorgooglecontainers/echoserver:1.10",
+    "target": "ccr.ccs.tencentyun.com/devopslina/mirrorgooglecontainers-echoserver:1.10"
+  },
+  {
+    "source": "mongo:4.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/mongo:4.0"
   }
 
 

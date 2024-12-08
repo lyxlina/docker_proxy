@@ -1,11 +1,15 @@
 [
   {
-    "source": "mirrorgooglecontainers/echoserver:1.10",
-    "target": "ccr.ccs.tencentyun.com/devopslina/mirrorgooglecontainers-echoserver:1.10"
+    "source": "apache/apisix:3.8.0-debian",
+    "target": "ccr.ccs.tencentyun.com/devopslina/apache-apisix:3.8.0-debian"
   },
   {
-    "source": "mongo:4.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/mongo:4.0"
+    "source": "bitnami/etcd:3.5.7-debian-11-r14",
+    "target": "ccr.ccs.tencentyun.com/devopslina/bitnami-etcd:3.5.7-debian-11-r14"
+  },
+  {
+    "source": "bitnami/bitnami-shell:11-debian-11-r90",
+    "target": "ccr.ccs.tencentyun.com/devopslina/bitnami-shell:11-debian-11-r90"
   }
 
 ]
