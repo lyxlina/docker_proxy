@@ -426,6 +426,18 @@
   {
     "source": "mongo:4.0",
     "target": "ccr.ccs.tencentyun.com/devopslina/mongo:4.0"
+  },
+  {
+    "source": "apache/apisix:3.8.0-debian",
+    "target": "ccr.ccs.tencentyun.com/devopslina/apache-apisix:3.8.0-debian"
+  },
+  {
+    "source": "bitnami/etcd:3.5.7-debian-11-r14",
+    "target": "ccr.ccs.tencentyun.com/devopslina/bitnami-etcd:3.5.7-debian-11-r14"
+  },
+  {
+    "source": "bitnami/bitnami-shell:11-debian-11-r90",
+    "target": "ccr.ccs.tencentyun.com/devopslina/bitnami-shell:11-debian-11-r90"
   }
 
 
