@@ -1,7 +1,7 @@
 [
   {
-    "source": "oci://registry-1.docker.io/bitnamicharts:bitnami-common",
-    "target": "ccr.ccs.tencentyun.com/devopslina/bitnamicharts:bitnami-common"
+    "source": "registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/nfs-subdir-external-provisioner:v4.0.2"
   }
 
 ]
