@@ -458,6 +458,10 @@
   {
     "source": "docker.io/bitnami/os-shell:11-debian-11-r91",
     "target": "ccr.ccs.tencentyun.com/devopslina/bitnami-os-shell:11-debian-11-r91"
+  },
+  {
+    "source": "registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/nfs-subdir-external-provisioner:v4.0.2"
   }
 
 
