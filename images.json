@@ -1,23 +1,7 @@
 [
   {
-    "source": "apache/apisix:3.11.0-debian",
-    "target": "ccr.ccs.tencentyun.com/devopslina/apache-apisix:3.11.0-debian"
-  },
-  {
-    "source": "apache/apisix-dashboard:3.0.0-alpine",
-    "target": "ccr.ccs.tencentyun.com/devopslina/apache-apisix:3.0.0-alpine"
-  },
-  {
-    "source": "apache/apisix-ingress-controller:1.8.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/apache-apisix-ingress-controller:1.8.0"
-  },
-  {
-    "source": "docker.io/bitnami/etcd:3.5.10-debian-11-r2",
-    "target": "ccr.ccs.tencentyun.com/devopslina/bitnami-etcd:3.5.10-debian-11-r2"
-  },
-  {
-    "source": "docker.io/bitnami/os-shell:11-debian-11-r91",
-    "target": "ccr.ccs.tencentyun.com/devopslina/bitnami-os-shell:11-debian-11-r91"
+    "source": "oci://registry-1.docker.io/bitnamicharts:bitnami-common",
+    "target": "ccr.ccs.tencentyun.com/devopslina/bitnamicharts:bitnami-common"
   }
 
 ]
