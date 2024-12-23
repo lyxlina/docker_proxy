@@ -462,6 +462,10 @@
   {
     "source": "registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2",
     "target": "ccr.ccs.tencentyun.com/devopslina/nfs-subdir-external-provisioner:v4.0.2"
+  },
+  {
+    "source": "apache/apisix-dashboard:3.0.0-alpine",
+    "target": "ccr.ccs.tencentyun.com/devopslina/apisix-dashboard:3.0.0-alpine"
   }
 
 
