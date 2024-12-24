@@ -466,6 +466,10 @@
   {
     "source": "apache/apisix-dashboard:3.0.0-alpine",
     "target": "ccr.ccs.tencentyun.com/devopslina/apisix-dashboard:3.0.0-alpine"
+  },
+  {
+    "source": "osixia/openldap:1.5.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/osixia-openldap:1.5.0"
   }
 
 
