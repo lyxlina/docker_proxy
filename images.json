@@ -4,7 +4,7 @@
     "target": "ccr.ccs.tencentyun.com/devopslina/jenkins:2.401.1"
   },
   {
-    "source": "jenkins/busybox:1.35.0",
+    "source": "busybox:1.35.0",
     "target": "ccr.ccs.tencentyun.com/devopslina/busybox:1.35.0"
   }
 
