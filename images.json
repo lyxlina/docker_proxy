@@ -1,12 +1,18 @@
 [
   {
-    "source": "public.ecr.aws/zinclabs/openobserve:latest",
-    "target": "ccr.ccs.tencentyun.com/devopslina/openobserve:latest"
+    "source": "busybox:1.30",
+    "target": "ccr.ccs.tencentyun.com/devopslina/busybox:1.30"
   },
   {
-    "source": "quay.io/fluentd_elasticsearch/fluentd:v4.4.3",
-    "target": "ccr.ccs.tencentyun.com/devopslina/fluentd:v4.4.3"
+    "source": "skywalking.docker.scarf.sh/apache/skywalking-oap-server:9.2.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/skywalking-oap-server:9.2.0"
+  },
+  {
+    "source": "skywalking.docker.scarf.sh/apache/skywalking-ui:9.2.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/skywalking-ui:9.2.0"
+  },
+  {
+    "source": "docker.elastic.co/elasticsearch/elasticsearch:6.8.6",
+    "target": "ccr.ccs.tencentyun.com/devopslina/elasticsearch:6.8.6"
   }
-
 ]
-
