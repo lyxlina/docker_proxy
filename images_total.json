@@ -482,6 +482,14 @@
   {
     "source": "busybox:1.35.0",
     "target": "ccr.ccs.tencentyun.com/devopslina/busybox:1.35.0"
+  },
+   {
+    "source": "public.ecr.aws/zinclabs/openobserve:latest",
+    "target": "ccr.ccs.tencentyun.com/devopslina/openobserve:latest"
+  },
+  {
+    "source": "quay.io/fluentd_elasticsearch/fluentd:v4.4.3",
+    "target": "ccr.ccs.tencentyun.com/devopslina/fluentd:v4.4.3"
   }
 
 
