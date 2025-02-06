@@ -1,7 +1,44 @@
 [
   {
-    "source": "kubesphere/ks-installer:v3.4.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/kubesphere-ks-installer:v3.4.0"
+    "source": "kubesphere/ks-installer:v3.4.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kubesphere-ks-installer:v3.4.1"
+  },
+  {
+    "source": "kubesphere/ks-apiserver:v3.4.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kubesphere-ks-apiserver:v3.4.1"
+  },
+  {
+    "source": "kubesphere/ks-console:v3.4.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kubesphere-ks-console:v3.4.1"
+  },
+  {
+    "source": "kubesphere/ks-controller-manager:v3.4.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kubesphere-ks-controller-manager:v3.4.1"
+  },
+  {
+    "source": "kubesphere/kubectl:v1.20.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kubesphere-kubectl:v1.20.0"
+  },
+  {
+    "source": "kubesphere/kubefed:v0.8.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kubesphere-kubefed:v0.8.1"
+  },
+  {
+    "source": "kubesphere/tower:v0.2.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kubesphere-tower:v0.2.1"
+  },
+  {
+    "source": "minio/minio:RELEASE.2019-08-07T01-59-21Z",
+    "target": "ccr.ccs.tencentyun.com/devopslina/minio:RELEASE.2019-08-07T01-59-21Z"
+  },
+  {
+    "source": "minio/mc:RELEASE.2019-08-07T23-14-43Z",
+    "target": "ccr.ccs.tencentyun.com/devopslina/mc:RELEASE.2019-08-07T23-14-43Z"
+  },
+  {
+    "source": "csiplugin/snapshot-controller:v4.0.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/csiplugin-snapshot-controller:v4.0.0"
   }
 
 ]
+
