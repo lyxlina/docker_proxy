@@ -1,7 +1,7 @@
 [
   {
-    "source": "docker.io/library/maven:3.9-eclipse-temurin-17",
-    "target": "ccr.ccs.tencentyun.com/devopslina/maven:3.9-eclipse-temurin-17"
+    "source": "kubesphere/ks-installer:v3.4.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kubesphere-ks-installer:v3.4.0"
   }
 
 ]
