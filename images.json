@@ -1,6 +1,6 @@
 [
   {
-    "source": "ccr.ccs.tencentyun.com/devopsvip/skywalking-java-agent:9.2.0-java17",
-    "target": "ccr.ccs.tencentyun.com/devopslina/skywalking-java-agent:9.2.0-java17"
+    "source": "docker.io/library/maven:latest",
+    "target": "ccr.ccs.tencentyun.com/devopslina/maven:latest"
   }
 ]
