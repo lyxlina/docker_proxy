@@ -522,6 +522,46 @@
   {
     "source": "kubesphere/ks-installer:v3.4.0",
     "target": "ccr.ccs.tencentyun.com/devopslina/kubesphere-ks-installer:v3.4.0"
+  },
+  {
+    "source": "kubesphere/ks-installer:v3.4.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kubesphere-ks-installer:v3.4.1"
+  },
+  {
+    "source": "kubesphere/ks-apiserver:v3.4.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kubesphere-ks-apiserver:v3.4.1"
+  },
+  {
+    "source": "kubesphere/ks-console:v3.4.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kubesphere-ks-console:v3.4.1"
+  },
+  {
+    "source": "kubesphere/ks-controller-manager:v3.4.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kubesphere-ks-controller-manager:v3.4.1"
+  },
+  {
+    "source": "kubesphere/kubectl:v1.20.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kubesphere-kubectl:v1.20.0"
+  },
+  {
+    "source": "kubesphere/kubefed:v0.8.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kubesphere-kubefed:v0.8.1"
+  },
+  {
+    "source": "kubesphere/tower:v0.2.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kubesphere-tower:v0.2.1"
+  },
+  {
+    "source": "minio/minio:RELEASE.2019-08-07T01-59-21Z",
+    "target": "ccr.ccs.tencentyun.com/devopslina/minio:RELEASE.2019-08-07T01-59-21Z"
+  },
+  {
+    "source": "minio/mc:RELEASE.2019-08-07T23-14-43Z",
+    "target": "ccr.ccs.tencentyun.com/devopslina/mc:RELEASE.2019-08-07T23-14-43Z"
+  },
+  {
+    "source": "csiplugin/snapshot-controller:v4.0.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/csiplugin-snapshot-controller:v4.0.0"
   }
 
 
@@ -530,17 +570,6 @@
 
 
 
-
-
-
-kubesphere/nginx-ingress-controller:v1.3.1
-mirrorgooglecontainers/defaultbackend-amd64:1.4
-kubesphere/metrics-server:v0.4.2
-redis:5.0.14-alpine
-haproxy:2.0.25-alpine
-alpine:3.14
-osixia/openldap:1.3.0
-kubesphere/netshoot:v1.0
 kubeedge/cloudcore:v1.13.0
 kubesphere/iptables-manager:v1.13.0
 kubesphere/edgeservice:v0.3.0
@@ -644,3 +673,6 @@ kubesphere/examples-bookinfo-reviews-v2:1.16.2
 kubesphere/examples-bookinfo-details-v1:1.16.2
 kubesphere/examples-bookinfo-ratings-v1:1.16.3
 weaveworks/scope:1.13.0
+
+
+
