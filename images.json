@@ -1,92 +1,36 @@
 [
   
   {
-    "source": "kubeedge/cloudcore:v1.13.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/cloudcore:v1.13.0"
+    "source": "goharbor/harbor-core:v2.12.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/harbor-core:v2.12.2"
   },
   {
-    "source": "kubesphere/iptables-manager:v1.13.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/iptables-manager:v1.13.0"
+    "source": "goharbor/harbor-db:v2.12.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/harbor-db:v2.12.2"
   },
   {
-    "source": "kubesphere/edgeservice:v0.3.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/edgeservice:v0.3.0"
+    "source": "goharbor/harbor-jobservice:v2.12.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/harbor-jobservice:v2.12.2"
   },
   {
-    "source": "openpolicyagent/gatekeeper:v3.5.2",
-    "target": "ccr.ccs.tencentyun.com/devopslina/gatekeeper:v3.5.2"
+    "source": "goharbor/harbor-portal:v2.12.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/harbor-portal:v2.12.2"
   },
   {
-    "source": "kubesphere/openpitrix-jobs:v3.3.2",
-    "target": "ccr.ccs.tencentyun.com/devopslina/openpitrix-jobs:v3.3.2"
+    "source": "goharbor/harbor-registryctl:v2.12.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/harbor-registryctl:v2.12.2"
   },
   {
-    "source": "kubesphere/devops-apiserver:ks-v3.4.1",
-    "target": "ccr.ccs.tencentyun.com/devopslina/devops-apiserver:ks-v3.4.1"
+    "source": "goharbor/redis-photon:v2.12.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/redis-photon:v2.12.2"
   },
   {
-    "source": "kubesphere/devops-controller:ks-v3.4.1",
-    "target": "ccr.ccs.tencentyun.com/devopslina/evops-controller:ks-v3.4.1"
+    "source": "goharbor/registry-photon:v2.12.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/registry-photon:v2.12.2"
   },
   {
-    "source": "kubesphere/devops-tools:ks-v3.4.1",
-    "target": "ccr.ccs.tencentyun.com/devopslina/devops-tools:ks-v3.4.1"
-  },
-  {
-    "source": "kubesphere/ks-jenkins:v3.4.0-2.319.3-1",
-    "target": "ccr.ccs.tencentyun.com/devopslina/ks-jenkins:v3.4.0-2.319.3-1"
-  },
-  {
-    "source": "jenkins/inbound-agent:4.10-2",
-    "target": "ccr.ccs.tencentyun.com/devopslina/inbound-agent:4.10-2"
-  },
-  {
-    "source": "jimmidyson/configmap-reload:v0.7.1",
-    "target": "ccr.ccs.tencentyun.com/devopslina/configmap-reload:v0.7.1"
-  },
-  {
-    "source": "prom/prometheus:v2.39.1",
-    "target": "ccr.ccs.tencentyun.com/devopslina/prometheus:v2.39.1"
-  },
-  {
-    "source": "kubesphere/prometheus-config-reloader:v0.55.1",
-    "target": "ccr.ccs.tencentyun.com/devopslina/prometheus-config-reloader:v0.55.1"
-  },
-  {
-    "source": "kubesphere/prometheus-operator:v0.55.1",
-    "target": "ccr.ccs.tencentyun.com/devopslina/prometheus-operator:v0.55.1"
-  },
-  {
-    "source": "kubesphere/kube-rbac-proxy:v0.11.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/kube-rbac-proxy:v0.11.0"
-  },
-  {
-    "source": "kubesphere/kube-state-metrics:v2.6.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/kube-state-metrics:v2.6.0"
-  },
-  {
-    "source": "prom/node-exporter:v1.3.1",
-    "target": "ccr.ccs.tencentyun.com/devopslina/node-exporter:v1.3.1"
-  },
-  {
-    "source": "prom/alertmanager:v0.23.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/alertmanager:v0.23.0"
-  },
-  {
-    "source": "kubesphere/kube-rbac-proxy:v0.11.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/kube-rbac-proxy:v0.11.0"
-  },
-  {
-    "source": "kubesphere/notification-manager-operator:v2.3.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/notification-manager-operator:v2.3.0"
-  },
-  {
-    "source": "kubesphere/notification-manager:v2.3.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/notification-manager:v2.3.0"
-  },
-  {
-    "source": "kubesphere/notification-tenant-sidecar:v3.2.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/notification-tenant-sidecar:v3.2.0"
+    "source": "goharbor/trivy-adapter-photon:v2.12.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/trivy-adapter-photon:v2.12.2"
   }
 
 ]
