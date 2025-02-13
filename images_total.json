@@ -718,6 +718,10 @@
   {
     "source": "goharbor/trivy-adapter-photon:v2.12.2",
     "target": "ccr.ccs.tencentyun.com/devopslina/trivy-adapter-photon:v2.12.2"
+  },
+  {
+    "source": "quay.io/tigera/operator:v1.29.6",
+    "target": "ccr.ccs.tencentyun.com/devopslina/calico-operator:v1.29.6"
   }
 
 
