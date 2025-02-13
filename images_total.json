@@ -686,6 +686,38 @@
   {
     "source": "kubesphere/notification-tenant-sidecar:v3.2.0",
     "target": "ccr.ccs.tencentyun.com/devopslina/notification-tenant-sidecar:v3.2.0"
+  },
+  {
+    "source": "goharbor/harbor-core:v2.12.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/harbor-core:v2.12.2"
+  },
+  {
+    "source": "goharbor/harbor-db:v2.12.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/harbor-db:v2.12.2"
+  },
+  {
+    "source": "goharbor/harbor-jobservice:v2.12.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/harbor-jobservice:v2.12.2"
+  },
+  {
+    "source": "goharbor/harbor-portal:v2.12.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/harbor-portal:v2.12.2"
+  },
+  {
+    "source": "goharbor/harbor-registryctl:v2.12.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/harbor-registryctl:v2.12.2"
+  },
+  {
+    "source": "goharbor/redis-photon:v2.12.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/redis-photon:v2.12.2"
+  },
+  {
+    "source": "goharbor/registry-photon:v2.12.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/registry-photon:v2.12.2"
+  },
+  {
+    "source": "goharbor/trivy-adapter-photon:v2.12.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/trivy-adapter-photon:v2.12.2"
   }
 
 
