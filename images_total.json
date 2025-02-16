@@ -722,6 +722,18 @@
   {
     "source": "quay.io/tigera/operator:v1.29.6",
     "target": "ccr.ccs.tencentyun.com/devopslina/calico-operator:v1.29.6"
+  }, 
+  {
+    "source": "docker.io/calico/cni:v3.25.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/calico-cni:v3.25.0"
+  },
+  {
+    "source": "docker.io/calico/kube-controllers:v3.25.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/calico-kube-controllers:v3.25.0"
+  },
+  {
+    "source": "docker.io/calico/node:v3.25.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/calico-node:v3.25.0"
   }
 
 
