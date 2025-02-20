@@ -734,6 +734,18 @@
   {
     "source": "docker.io/calico/node:v3.25.0",
     "target": "ccr.ccs.tencentyun.com/devopslina/calico-node:v3.25.0"
+  },
+  {
+    "source": "k8s.gcr.io/autoscaling/vpa-admission-controller:0.11.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/vpa-admission-controller:0.11.0"
+  },
+  {
+    "source": "k8s.gcr.io/autoscaling/vpa-recommender:0.11.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/vpa-recommender:0.11.0"
+  },
+  {
+    "source": "k8s.gcr.io/autoscaling/vpa-updater:0.11.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/vpa-updater:0.11.0"
   }
 
 
