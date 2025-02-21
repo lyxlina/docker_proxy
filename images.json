@@ -1,7 +1,7 @@
 [
   {
-    "source": "skywalking.docker.scarf.sh/apache/skywalking-satellite:9.2.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/skywalking-satellite:9.2.0"
+    "source": "skywalking.docker.scarf.sh/apache/skywalking-satellite:v0.4.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/skywalking-satellite:v0.4.0"
   }
 ]
 
