@@ -758,6 +758,10 @@
   {
     "source": "registry.k8s.io/autoscaling/vpa-updater:1.1.2",
     "target": "ccr.ccs.tencentyun.com/devopslina/vpa-updater:1.1.2"
+  },
+  {
+    "source": "skywalking.docker.scarf.sh/apache/skywalking-satellite:v0.4.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/skywalking-satellite:v0.4.0"
   }
 
 
