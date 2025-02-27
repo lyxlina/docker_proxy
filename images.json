@@ -1,7 +1,11 @@
 [
   {
-    "source": "jenkins/jenkins:2.462.3-lts-jdk11",
-    "target": "ccr.ccs.tencentyun.com/devopslina/2.462.3-lts-jdk11"
+    "source": "jenkins/jenkins:2.479.1-lts",
+    "target": "ccr.ccs.tencentyun.com/devopslina/jenkins:2.479.1-lts"
+  },
+  {
+    "source": "jenkins/jenkins:2.479.2-lts",
+    "target": "ccr.ccs.tencentyun.com/devopslina/jenkins:2.479.2-lts"
   }
 ]
 
