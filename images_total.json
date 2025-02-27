@@ -762,6 +762,10 @@
   {
     "source": "skywalking.docker.scarf.sh/apache/skywalking-satellite:v0.4.0",
     "target": "ccr.ccs.tencentyun.com/devopslina/skywalking-satellite:v0.4.0"
+  },
+  {
+    "source": "jenkins/jenkins:2.426.2-jdk11",
+    "target": "ccr.ccs.tencentyun.com/devopslina/jenkins:2.426-jdk11"
   }
 
 
