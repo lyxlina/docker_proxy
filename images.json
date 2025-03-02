@@ -1,7 +1,7 @@
 [
   {
     "source": "jenkins/jenkins:2.479.3-lts-jdk17",
-    "target": "ccr.ccs.tencentyun.com/devopslina//jenkins:2.479.3-lts-jdk17"
+    "target": "ccr.ccs.tencentyun.com/devopslina/jenkins:2.479.3-lts-jdk17"
   }
 ]
 
