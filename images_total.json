@@ -778,6 +778,10 @@
   {
     "source": "jenkins/jenkins:2.479.2-lts",
     "target": "ccr.ccs.tencentyun.com/devopslina/jenkins:2.479.2-lts"
+  },
+   {
+    "source": "jenkins/inbound-agent:latest-jdk17",
+    "target": "ccr.ccs.tencentyun.com/devopslina/inbound-agent:latest-jdk17"
   }
 
 
