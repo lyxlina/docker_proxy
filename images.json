@@ -1,11 +1,7 @@
 [
   {
-    "source": "longhornio/longhorn-manager:v1.8.1",
-    "target": "ccr.ccs.tencentyun.com/devopslina/longhorn-manager:v1.8.1"
-  },
-  {
-    "source": "longhornio/backing-image-manager:v1.8.1",
-    "target": "ccr.ccs.tencentyun.com/devopslina/backing-image-manager:v1.8.1"
+    "source": "alpine:3.12",
+    "target": "ccr.ccs.tencentyun.com/devopslina/alpine:3.12"
   }
 
 ]
