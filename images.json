@@ -20,7 +20,7 @@
     "target": "ccr.ccs.tencentyun.com/devopslina/support-bundle-kit:v0.0.52"
   },
   {
-    "source": "longhornio/longhornio/csi-attacher:v4.8.1",
+    "source": "longhornio/csi-attacher:v4.8.1",
     "target": "ccr.ccs.tencentyun.com/devopslina/csi-attacher:v4.8.1"
   },
   {
