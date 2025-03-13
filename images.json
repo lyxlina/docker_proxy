@@ -1,51 +1,11 @@
 [
   {
-    "source": "longhornio/longhorn-share-manager:v1.8.1",
-    "target": "ccr.ccs.tencentyun.com/devopslina/longhorn-share-manager:v1.8.1"
+    "source": "longhornio/longhorn-manager:v1.8.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/longhorn-manager:v1.8.1"
   },
   {
-    "source": "longhornio/longhorn-engine:v1.8.1",
-    "target": "ccr.ccs.tencentyun.com/devopslina/longhorn-engine:v1.8.1"
-  },
-  {
-    "source": "longhornio/longhorn-ui:v1.8.1",
-    "target": "ccr.ccs.tencentyun.com/devopslina/longhorn-ui:v1.8.1"
-  },
-  {
-    "source": "longhornio/longhorn-instance-manager:v1.8.1",
-    "target": "ccr.ccs.tencentyun.com/devopslina/longhorn-instance-manager:v1.8.1"
-  },
-  {
-    "source": "longhornio/support-bundle-kit:v0.0.52",
-    "target": "ccr.ccs.tencentyun.com/devopslina/support-bundle-kit:v0.0.52"
-  },
-  {
-    "source": "longhornio/csi-attacher:v4.8.1",
-    "target": "ccr.ccs.tencentyun.com/devopslina/csi-attacher:v4.8.1"
-  },
-  {
-    "source": "longhornio/csi-provisioner:v5.2.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/csi-provisioner:v5.2.0"
-  },
-  {
-    "source": "longhornio/csi-node-driver-registrar:v2.13.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/csi-node-driver-registrar:v2.13.0"
-  },
-  {
-    "source": "longhornio/csi-resizer:v1.13.2",
-    "target": "ccr.ccs.tencentyun.com/devopslina/csi-resizer:v1.13.2"
-  },
-  {
-    "source": "longhornio/csi-snapshotter:v8.2.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/csi-snapshotter:v8.2.0"
-  },
-  {
-    "source": "longhornio/livenessprobe:v2.15.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/livenessprobe:v2.15.0"
-  },
-  {
-    "source": "longhornio/csi-snapshotter:v8.2.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/csi-snapshotter:v8.2.0"
+    "source": "longhornio/backing-image-manager:v1.8.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/backing-image-manager:v1.8.1"
   }
 
 ]
