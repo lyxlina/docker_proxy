@@ -1,7 +1,7 @@
 [
   {
-    "source": "alpine:3.12",
-    "target": "ccr.ccs.tencentyun.com/devopslina/alpine:3.12"
+    "source": "registry.k8s.io/e2e-test-images/jessie-dnsutils:1.3",
+    "target": "ccr.ccs.tencentyun.com/devopslina/jessie-dnsutils:1.3"
   }
 
 ]
