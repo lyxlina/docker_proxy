@@ -490,6 +490,362 @@
   {
     "source": "quay.io/fluentd_elasticsearch/fluentd:v4.4.3",
     "target": "ccr.ccs.tencentyun.com/devopslina/fluentd:v4.4.3"
+  },
+    {
+    "source": "busybox:1.30",
+    "target": "ccr.ccs.tencentyun.com/devopslina/busybox:1.30"
+  },
+  {
+    "source": "skywalking.docker.scarf.sh/apache/skywalking-oap-server:9.2.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/skywalking-oap-server:9.2.0"
+  },
+  {
+    "source": "skywalking.docker.scarf.sh/apache/skywalking-ui:9.2.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/skywalking-ui:9.2.0"
+  },
+  {
+    "source": "docker.elastic.co/elasticsearch/elasticsearch:6.8.6",
+    "target": "ccr.ccs.tencentyun.com/devopslina/elasticsearch:6.8.6"
+  },
+  {
+    "source": "ccr.ccs.tencentyun.com/devopsvip/skywalking-java-agent:9.2.0-java17",
+    "target": "ccr.ccs.tencentyun.com/devopslina/skywalking-java-agent:9.2.0-java17"
+  },
+  {
+    "source": "docker.io/library/maven:latest",
+    "target": "ccr.ccs.tencentyun.com/devopslina/maven:latest"
+  },
+  {
+    "source": "docker.io/library/maven:3.9-eclipse-temurin-17",
+    "target": "ccr.ccs.tencentyun.com/devopslina/maven:3.9-eclipse-temurin-17"
+  },
+  {
+    "source": "kubesphere/ks-installer:v3.4.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kubesphere-ks-installer:v3.4.0"
+  },
+  {
+    "source": "kubesphere/ks-installer:v3.4.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kubesphere-ks-installer:v3.4.1"
+  },
+  {
+    "source": "kubesphere/ks-apiserver:v3.4.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kubesphere-ks-apiserver:v3.4.1"
+  },
+  {
+    "source": "kubesphere/ks-console:v3.4.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kubesphere-ks-console:v3.4.1"
+  },
+  {
+    "source": "kubesphere/ks-controller-manager:v3.4.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kubesphere-ks-controller-manager:v3.4.1"
+  },
+  {
+    "source": "kubesphere/kubectl:v1.20.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kubesphere-kubectl:v1.20.0"
+  },
+  {
+    "source": "kubesphere/kubefed:v0.8.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kubesphere-kubefed:v0.8.1"
+  },
+  {
+    "source": "kubesphere/tower:v0.2.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kubesphere-tower:v0.2.1"
+  },
+  {
+    "source": "minio/minio:RELEASE.2019-08-07T01-59-21Z",
+    "target": "ccr.ccs.tencentyun.com/devopslina/minio:RELEASE.2019-08-07T01-59-21Z"
+  },
+  {
+    "source": "minio/mc:RELEASE.2019-08-07T23-14-43Z",
+    "target": "ccr.ccs.tencentyun.com/devopslina/mc:RELEASE.2019-08-07T23-14-43Z"
+  },
+  {
+    "source": "csiplugin/snapshot-controller:v4.0.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/csiplugin-snapshot-controller:v4.0.0"
+  },
+  {
+    "source": "kubesphere/nginx-ingress-controller:v1.3.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/nginx-ingress-controller:v1.3.1"
+  },
+  {
+    "source": "mirrorgooglecontainers/defaultbackend-amd64:1.4",
+    "target": "ccr.ccs.tencentyun.com/devopslina/defaultbackend-amd64:1.4"
+  },
+  {
+    "source": "kubesphere/metrics-server:v0.4.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/metrics-server:v0.4.2"
+  },
+  {
+    "source": "redis:5.0.14-alpine",
+    "target": "ccr.ccs.tencentyun.com/devopslina/redis:5.0.14-alpine"
+  },
+  {
+    "source": "haproxy:2.0.25-alpine",
+    "target": "ccr.ccs.tencentyun.com/devopslina/haproxy:2.0.25-alpine"
+  },
+  {
+    "source": "redis:5.0.14-alpine",
+    "target": "ccr.ccs.tencentyun.com/devopslina/redis:5.0.14-alpine"
+  },
+  {
+    "source": "alpine:3.14",
+    "target": "ccr.ccs.tencentyun.com/devopslina/alpine:3.14"
+  },
+  {
+    "source": "osixia/openldap:1.3.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/osixia-openldap:1.3.0"
+  },
+  {
+    "source": "kubesphere/netshoot:v1.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/netshoot:v1.0"
+  },
+  {
+    "source": "kubeedge/cloudcore:v1.13.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/cloudcore:v1.13.0"
+  },
+  {
+    "source": "kubesphere/iptables-manager:v1.13.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/iptables-manager:v1.13.0"
+  },
+  {
+    "source": "kubesphere/edgeservice:v0.3.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/edgeservice:v0.3.0"
+  },
+  {
+    "source": "openpolicyagent/gatekeeper:v3.5.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/gatekeeper:v3.5.2"
+  },
+  {
+    "source": "kubesphere/openpitrix-jobs:v3.3.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/openpitrix-jobs:v3.3.2"
+  },
+  {
+    "source": "kubesphere/devops-apiserver:ks-v3.4.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/devops-apiserver:ks-v3.4.1"
+  },
+  {
+    "source": "kubesphere/devops-controller:ks-v3.4.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/evops-controller:ks-v3.4.1"
+  },
+  {
+    "source": "kubesphere/devops-tools:ks-v3.4.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/devops-tools:ks-v3.4.1"
+  },
+  {
+    "source": "kubesphere/ks-jenkins:v3.4.0-2.319.3-1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/ks-jenkins:v3.4.0-2.319.3-1"
+  },
+  {
+    "source": "jenkins/inbound-agent:4.10-2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/inbound-agent:4.10-2"
+  },
+  {
+    "source": "jimmidyson/configmap-reload:v0.7.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/configmap-reload:v0.7.1"
+  },
+  {
+    "source": "prom/prometheus:v2.39.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/prometheus:v2.39.1"
+  },
+  {
+    "source": "kubesphere/prometheus-config-reloader:v0.55.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/prometheus-config-reloader:v0.55.1"
+  },
+  {
+    "source": "kubesphere/prometheus-operator:v0.55.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/prometheus-operator:v0.55.1"
+  },
+  {
+    "source": "kubesphere/kube-rbac-proxy:v0.11.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kube-rbac-proxy:v0.11.0"
+  },
+  {
+    "source": "kubesphere/kube-state-metrics:v2.6.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kube-state-metrics:v2.6.0"
+  },
+  {
+    "source": "prom/node-exporter:v1.3.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/node-exporter:v1.3.1"
+  },
+  {
+    "source": "prom/alertmanager:v0.23.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/alertmanager:v0.23.0"
+  },
+  {
+    "source": "kubesphere/kube-rbac-proxy:v0.11.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kube-rbac-proxy:v0.11.0"
+  },
+  {
+    "source": "kubesphere/notification-manager-operator:v2.3.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/notification-manager-operator:v2.3.0"
+  },
+  {
+    "source": "kubesphere/notification-manager:v2.3.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/notification-manager:v2.3.0"
+  },
+  {
+    "source": "kubesphere/notification-tenant-sidecar:v3.2.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/notification-tenant-sidecar:v3.2.0"
+  },
+  {
+    "source": "goharbor/harbor-core:v2.12.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/harbor-core:v2.12.2"
+  },
+  {
+    "source": "goharbor/harbor-db:v2.12.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/harbor-db:v2.12.2"
+  },
+  {
+    "source": "goharbor/harbor-jobservice:v2.12.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/harbor-jobservice:v2.12.2"
+  },
+  {
+    "source": "goharbor/harbor-portal:v2.12.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/harbor-portal:v2.12.2"
+  },
+  {
+    "source": "goharbor/harbor-registryctl:v2.12.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/harbor-registryctl:v2.12.2"
+  },
+  {
+    "source": "goharbor/redis-photon:v2.12.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/redis-photon:v2.12.2"
+  },
+  {
+    "source": "goharbor/registry-photon:v2.12.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/registry-photon:v2.12.2"
+  },
+  {
+    "source": "goharbor/trivy-adapter-photon:v2.12.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/trivy-adapter-photon:v2.12.2"
+  },
+  {
+    "source": "quay.io/tigera/operator:v1.29.6",
+    "target": "ccr.ccs.tencentyun.com/devopslina/calico-operator:v1.29.6"
+  }, 
+  {
+    "source": "docker.io/calico/cni:v3.25.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/calico-cni:v3.25.0"
+  },
+  {
+    "source": "docker.io/calico/kube-controllers:v3.25.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/calico-kube-controllers:v3.25.0"
+  },
+  {
+    "source": "docker.io/calico/node:v3.25.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/calico-node:v3.25.0"
+  },
+  {
+    "source": "k8s.gcr.io/autoscaling/vpa-admission-controller:0.11.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/vpa-admission-controller:0.11.0"
+  },
+  {
+    "source": "k8s.gcr.io/autoscaling/vpa-recommender:0.11.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/vpa-recommender:0.11.0"
+  },
+  {
+    "source": "k8s.gcr.io/autoscaling/vpa-updater:0.11.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/vpa-updater:0.11.0"
+  },
+  {
+    "source": "registry.k8s.io/autoscaling/vpa-admission-controller:1.1.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/vpa-admission-controller:1.1.2"
+  },
+  {
+    "source": "registry.k8s.io/autoscaling/vpa-recommender:1.1.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/vpa-recommender:1.1.2"
+  },
+  {
+    "source": "registry.k8s.io/autoscaling/vpa-updater:1.1.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/vpa-updater:1.1.2"
+  },
+  {
+    "source": "skywalking.docker.scarf.sh/apache/skywalking-satellite:v0.4.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/skywalking-satellite:v0.4.0"
+  },
+  {
+    "source": "jenkins/jenkins:2.426.2-jdk11",
+    "target": "ccr.ccs.tencentyun.com/devopslina/jenkins:2.426-jdk11"
+  },
+  {
+    "source": "jenkins/jenkins:2.462.3-lts-jdk11",
+    "target": "ccr.ccs.tencentyun.com/devopslina/2.462.3-lts-jdk11"
+  },
+  {
+    "source": "jenkins/jenkins:2.479.1-lts",
+    "target": "ccr.ccs.tencentyun.com/devopslina/jenkins:2.479.1-lts"
+  },
+  {
+    "source": "jenkins/jenkins:2.479.2-lts",
+    "target": "ccr.ccs.tencentyun.com/devopslina/jenkins:2.479.2-lts"
+  },
+   {
+    "source": "jenkins/inbound-agent:latest-jdk17",
+    "target": "ccr.ccs.tencentyun.com/devopslina/inbound-agent:latest-jdk17"
+  },
+  {
+    "source": "jenkins/jenkins:2.479.3-lts-jdk17",
+    "target": "ccr.ccs.tencentyun.com/devopslina/jenkins:2.479.3-lts-jdk17"
+  },
+  {
+    "source": "longhornio/longhorn-share-manager:v1.8.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/longhorn-share-manager:v1.8.1"
+  },
+  {
+    "source": "longhornio/longhorn-engine:v1.8.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/longhorn-engine:v1.8.1"
+  },
+  {
+    "source": "longhornio/longhorn-ui:v1.8.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/longhorn-ui:v1.8.1"
+  },
+  {
+    "source": "longhornio/longhorn-instance-manager:v1.8.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/longhorn-instance-manager:v1.8.1"
+  },
+  {
+    "source": "longhornio/support-bundle-kit:v0.0.52",
+    "target": "ccr.ccs.tencentyun.com/devopslina/support-bundle-kit:v0.0.52"
+  },
+  {
+    "source": "longhornio/csi-attacher:v4.8.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/csi-attacher:v4.8.1"
+  },
+  {
+    "source": "longhornio/csi-provisioner:v5.2.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/csi-provisioner:v5.2.0"
+  },
+  {
+    "source": "longhornio/csi-node-driver-registrar:v2.13.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/csi-node-driver-registrar:v2.13.0"
+  },
+  {
+    "source": "longhornio/csi-resizer:v1.13.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/csi-resizer:v1.13.2"
+  },
+  {
+    "source": "longhornio/csi-snapshotter:v8.2.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/csi-snapshotter:v8.2.0"
+  },
+  {
+    "source": "longhornio/livenessprobe:v2.15.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/livenessprobe:v2.15.0"
+  },
+  {
+    "source": "longhornio/csi-snapshotter:v8.2.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/csi-snapshotter:v8.2.0"
+  },
+  {
+    "source": "longhornio/longhorn-manager:v1.8.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/longhorn-manager:v1.8.1"
+  },
+  {
+    "source": "longhornio/backing-image-manager:v1.8.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/backing-image-manager:v1.8.1"
+  },
+  {
+    "source": "alpine:3.12",
+    "target": "ccr.ccs.tencentyun.com/devopslina/alpine:3.12"
   }
 
 
@@ -498,6 +854,48 @@
 
 
 
+##kubesphere-logging-images
+kubesphere/elasticsearch-curator:v5.7.6
+kubesphere/opensearch-curator:v0.0.5
+kubesphere/elasticsearch-oss:6.8.22
+opensearchproject/opensearch:2.6.0
+opensearchproject/opensearch-dashboards:2.6.0
+kubesphere/fluentbit-operator:v0.14.0
+docker:19.03
+kubesphere/fluent-bit:v1.9.4
+kubesphere/log-sidecar-injector:v1.2.0
+elastic/filebeat:6.7.0
+kubesphere/kube-events-operator:v0.6.0
+kubesphere/kube-events-exporter:v0.6.0
+kubesphere/kube-events-ruler:v0.6.0
+kubesphere/kube-auditing-operator:v0.2.0
+kubesphere/kube-auditing-webhook:v0.2.0
+##istio-images
+istio/pilot:1.14.6
+istio/proxyv2:1.14.6
+jaegertracing/jaeger-operator:1.29
+jaegertracing/jaeger-agent:1.29
+jaegertracing/jaeger-collector:1.29
+jaegertracing/jaeger-query:1.29
+jaegertracing/jaeger-es-index-cleaner:1.29
+kubesphere/kiali-operator:v1.50.1
+kubesphere/kiali:v1.50
+##example-images
+busybox:1.31.1
+nginx:1.14-alpine
+joosthofman/wget:1.0
+nginxdemos/hello:plain-text
+wordpress:4.8-apache
+mirrorgooglecontainers/hpa-example:latest
+fluent/fluentd:v1.4.2-2.0
+perl:latest
+kubesphere/examples-bookinfo-productpage-v1:1.16.2
+kubesphere/examples-bookinfo-reviews-v1:1.16.2
+kubesphere/examples-bookinfo-reviews-v2:1.16.2
+kubesphere/examples-bookinfo-details-v1:1.16.2
+kubesphere/examples-bookinfo-ratings-v1:1.16.3
+##weave-scope-images
+weaveworks/scope:1.13.0
 
 
 
