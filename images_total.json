@@ -870,6 +870,34 @@
      {
     "source": "nginx:stable-alpine",
     "target": "ccr.ccs.tencentyun.com/devopslina/nginx:stable-alpine"
+  },
+   {
+    "source": "alpine:3.16.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/alpine:3.16.2"
+  },
+  {
+    "source": "bitnami/kubectl:1.21.11",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kubectl:1.21.11"
+  },
+  {
+    "source": "docker.io/library/nginx:latest",
+    "target": "ccr.ccs.tencentyun.com/devopslina/nginx:latest"
+  },
+  {
+    "source": "quay.io/ceph/ceph:v18",
+    "target": "ccr.ccs.tencentyun.com/devopslina/ceph:v18"
+  },
+  {
+    "source": "wordpress:4.6.1-apache",
+    "target": "ccr.ccs.tencentyun.com/devopslina/wordpress:4.6.1-apache"
+  },
+  {
+    "source": "quay.io/ceph/ceph:v18.2.4",
+    "target": "ccr.ccs.tencentyun.com/devopslina/ceph:v18.2.4"
+  },
+  {
+    "source": "registry:2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/registry:2"
   }
 
 
