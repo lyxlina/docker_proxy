@@ -58,5 +58,9 @@
    {
     "source": "jenkins/jenkins:2.415-jdk11",
     "target": "ccr.ccs.tencentyun.com/devopsvip/jenkins:2.415-jdk11"
+  },
+  {
+    "source": "rook/ceph:v1.14.12",
+    "target": "ccr.ccs.tencentyun.com/devopslina/ceph:v1.14.12"
   }
  ]
