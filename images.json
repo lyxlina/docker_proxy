@@ -6,6 +6,30 @@
   {
     "source": "quay.io/cephcsi/cephcsi:v3.11.0",
     "target": "ccr.ccs.tencentyun.com/devopslina/cephcsi:v3.11.0"
+  },
+  {
+    "source": "registry.k8s.io/sig-storage/csi-attacher:v4.5.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/csi-attacher:v4.5.1"
+  },
+  {
+    "source": "registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.10.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/csi-node-driver-registrar:v2.10.1"
+  },
+  {
+    "source": "registry.k8s.io/sig-storage/csi-provisioner:v4.0.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/csi-provisioner:v4.0.1"
+  },
+  {
+    "source": "registry.k8s.io/sig-storage/csi-resizer:v1.10.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/csi-resizer:v1.10.1"
+  },
+  {
+    "source": "registry.k8s.io/sig-storage/csi-snapshotter:v7.0.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/csi-snapshotter:v7.0.2"
+  },
+  {
+    "source": "quay.io/ceph/ceph:v1.14.12",
+    "target": "ccr.ccs.tencentyun.com/devopslina/ceph:v1.14.12"
   }
 ]
 
