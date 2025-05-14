@@ -1,7 +1,11 @@
 [
   {
-    "source": "python:3.10.9",
-    "target": "ccr.ccs.tencentyun.com/devopslina/python:3.10.9"
+    "source": "mysql:5.7.43",
+    "target": "ccr.ccs.tencentyun.com/devopslina/mysql:5.7.43"
+  },
+  {
+    "source": "mongo:5.0.9",
+    "target": "ccr.ccs.tencentyun.com/devopslina/mongo:5.0.9"
   }
 ]
 
