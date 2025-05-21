@@ -1,9 +1,8 @@
 [
   {
-    "source": "nacos/nacos-server:v2.0.3",
-    "target": "ccr.ccs.tencentyun.com/devopslina/nacos-server:v2.0.3"
+    "source": "python:3.10.12",
+    "target": "ccr.ccs.tencentyun.com/devopslina/python:3.10.12"
   }
-
 ]
 
 
