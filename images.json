@@ -1,7 +1,7 @@
 [
   {
-    "source": "python:3.10.12",
-    "target": "ccr.ccs.tencentyun.com/devopslina/python:3.10.12"
+    "source": "gcr.io/cadvisor/cadvisor:latest",
+    "target": "ccr.ccs.tencentyun.com/devopslina/cadvisor:latest"
   }
 ]
 
