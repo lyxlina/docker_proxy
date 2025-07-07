@@ -1,7 +1,7 @@
 [
   {
     "source": "jess/chrome",
-    "target": "ccr.ccs.tencentyun.com/devopslina/jess/chrome"
+    "target": "ccr.ccs.tencentyun.com/devopslina/jess/chrome:latest"
   }
 ]
 
