@@ -1,7 +1,7 @@
 [
   {
-    "source": "gcr.io/cadvisor/cadvisor:latest",
-    "target": "ccr.ccs.tencentyun.com/devopslina/cadvisor:latest"
+    "source": "jess/chrome",
+    "target": "ccr.ccs.tencentyun.com/devopslina/jess/chrome"
   }
 ]
 
