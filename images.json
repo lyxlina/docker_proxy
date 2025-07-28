@@ -1,7 +1,7 @@
 [
   {
-    "source": "redis:6.2.19",
-    "target": "ccr.ccs.tencentyun.com/devopslina/redis:6.2.19"
+    "source": "bitnami/postgresql:14.17.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/postgresql:14.17.0"
   }
 ]
 
