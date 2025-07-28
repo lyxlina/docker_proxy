@@ -1,7 +1,7 @@
 [
   {
-    "source": "jess/chrome",
-    "target": "ccr.ccs.tencentyun.com/devopslina/jess-chrome:latest"
+    "source": "redis:6.2.19",
+    "target": "ccr.ccs.tencentyun.com/devopslina/redis:6.2.19"
   }
 ]
 
