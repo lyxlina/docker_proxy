@@ -942,6 +942,10 @@
   {
     "source": "python:3.10.12",
     "target": "ccr.ccs.tencentyun.com/devopslina/python:3.10.12"
+  },
+  {
+    "source": "redis:6.2.19",
+    "target": "ccr.ccs.tencentyun.com/devopslina/redis:6.2.19"
   }
 
 
