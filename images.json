@@ -1,7 +1,11 @@
 [
   {
-    "source": "bitnami/postgresql:14.17.0",
-    "target": "ccr.ccs.tencentyun.com/devopslina/postgresql:14.17.0"
+    "source": "jenkins/jenkins:2.516.1-lts",
+    "target": "ccr.ccs.tencentyun.com/devopslina/jenkins:2.516.1-lts"
+  },
+  {
+    "source": "argoproj/argocd:v2.6.15",
+    "target": "ccr.ccs.tencentyun.com/devopslina/argocd:v2.6.15"
   }
 ]
 
