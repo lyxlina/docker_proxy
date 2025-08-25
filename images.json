@@ -1,7 +1,7 @@
 [
   {
-    "source": "jenkins/inbound-agent:latest-jdk21",
-    "target": "ccr.ccs.tencentyun.com/devopslina/jenkins-inbound-agent:latest-jdk21"
+    "source": "jenkins/inbound-agent:latest-jdk8",
+    "target": "ccr.ccs.tencentyun.com/devopslina/jenkins-inbound-agent:latest-jdk8"
   }
 ]
 
