@@ -1,7 +1,7 @@
 [
   {
-    "source": "anolisos/openjdk:8u392-anolis8",
-    "target": "ccr.ccs.tencentyun.com/devopslina/openjdk:8u392-anolis8"
+    "source": "openjdk:8",
+    "target": "ccr.ccs.tencentyun.com/devopslina/openjdk:8"
   }
 ]
 
