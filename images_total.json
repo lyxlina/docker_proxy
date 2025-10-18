@@ -6,6 +6,26 @@
   {
     "source": "argoproj/argocd:v2.6.15",
     "target": "ccr.ccs.tencentyun.com/devopslina/argocd:v2.6.15"
+  },
+  {
+    "source": "quay.io/jetstack/cert-manager-controller",
+    "target": "ccr.ccs.tencentyun.com/devopslina/cert-manager-controller:1.19.1"
+  },
+  {
+    "source": "quay.io/jetstack/cert-manager-webhook",
+    "target": "ccr.ccs.tencentyun.com/devopslina/cert-manager-webhook:1.19.1"
+  },
+  {
+    "source": "quay.io/jetstack/cert-manager-cainjector",
+    "target": "ccr.ccs.tencentyun.com/devopslina/cert-manager-cainjector:1.19.1"
+  },
+  {
+    "source": "quay.io/jetstack/cert-manager-acmesolver",
+    "target": "ccr.ccs.tencentyun.com/devopslina/cert-manager-acmesolver:1.19.1"
+  },
+  {
+    "source": "quay.io/jetstack/cert-manager-startupapicheck",
+    "target": "ccr.ccs.tencentyun.com/devopslina/cert-manager-startupapicheck:1.19.1"
   }
 
 

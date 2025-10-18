@@ -1,25 +1,101 @@
 [
   {
-    "source": "quay.io/jetstack/cert-manager-controller",
-    "target": "ccr.ccs.tencentyun.com/devopslina/cert-manager-controller:1.19.1"
+    "source": "registry.gitlab.com/gitlab-org/gitlab-runner:alpine-v18.3.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/gitlab-runner:alpine-v18.3.1"
   },
   {
-    "source": "quay.io/jetstack/cert-manager-webhook",
-    "target": "ccr.ccs.tencentyun.com/devopslina/cert-manager-webhook:1.19.1"
+    "source": "registry.gitlab.cn/cng-images/gitlab-base:v18.4.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/gitlab-base:v18.4.2"
   },
   {
-    "source": "quay.io/jetstack/cert-manager-cainjector",
-    "target": "ccr.ccs.tencentyun.com/devopslina/cert-manager-cainjector:1.19.1"
+    "source": "registry.gitlab.cn/cng-images/gitlab-exporter:16.1.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/gitlab-exporter:16.1.0"
   },
   {
-    "source": "quay.io/jetstack/cert-manager-acmesolver",
-    "target": "ccr.ccs.tencentyun.com/devopslina/cert-manager-acmesolver:1.19.1"
+    "source": "registry.gitlab.cn/cng-images/certificates:v18.4.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/certificates:v18.4.2"
   },
   {
-    "source": "quay.io/jetstack/cert-manager-startupapicheck",
-    "target": "ccr.ccs.tencentyun.com/devopslina/cert-manager-startupapicheck:1.19.1"
+    "source": "registry.gitlab.cn/cng-images/gitlab-base:v18.4.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/gitlab-base:v18.4.2"
+  },
+  {
+    "source": "registry.gitlab.cn/cng-images/gitlab-kas:v18.4.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/gitlab-kas:v18.4.2"
+  },
+  {
+    "source": "registry.gitlab.com/gitlab-org/build/cng/gitlab-sidekiq-ce:v18.4.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/gitlab-sidekiq-ce:v18.4.2"
+  },
+  {
+    "source": "registry.gitlab.com/gitlab-org/build/cng/gitlab-toolbox-ce:v18.4.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/gitlab-toolbox-ce:v18.4.2"
+  },
+  {
+    "source": "registry.gitlab.com/gitlab-org/build/cng/gitlab-webservice-ce:v18.4.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/gitlab-webservice-ce:v18.4.2"
+  },
+  {
+    "source": "registry.gitlab.com/gitlab-org/build/cng/gitlab-workhorse-ce:v18.4.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/gitlab-workhorse-ce:v18.4.2"
+  },
+  {
+    "source": "minio/minio:RELEASE.2017-12-28T01-21-00Z",
+    "target": "ccr.ccs.tencentyun.com/devopslina/minio:RELEASE.2017-12-28T01-21-00Z"
+  },
+  {
+    "source": "registry.gitlab.cn/cng-images/gitaly:v18.4.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/gitaly:v18.4.2"
+  },
+  {
+    "source": "docker.io/bitnamilegacy/postgresql:16.6.0",
+    "target": "ccr.ccs.tencentyun.com/devopslina/postgresql:16.6.0"
+  },
+  {
+    "source": "docker.io/bitnamilegacy/postgres-exporter:0.15.0-debian-11-r7",
+    "target": "ccr.ccs.tencentyun.com/devopslina/postgres-exporter:0.15.0-debian-11-r7"
+  },
+  {
+    "source": "docker.io/bitnamilegacy/redis:7.2.4-debian-12-r9",
+    "target": "ccr.ccs.tencentyun.com/devopslina/redis:7.2.4-debian-12-r9"
+  },
+  {
+    "source": "docker.io/bitnamilegacy/redis-exporter:1.58.0-debian-12-r4",
+    "target": "ccr.ccs.tencentyun.com/devopslina/redis-exporter:1.58.0-debian-12-r4"
+  },
+  {
+    "source": "quay.io/jetstack/cert-manager-startupapicheck:v1.17.4",
+    "target": "ccr.ccs.tencentyun.com/devopslina/cert-manager-startupapicheck:v1.17.4"
+  },
+  {
+    "source": "registry.gitlab.cn/cng-images/kubectl:v18.4.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/kubectl:v18.4.2"
+  },
+  {
+    "source": "quay.io/jetstack/cert-manager-cainjector:v1.17.4",
+    "target": "ccr.ccs.tencentyun.com/devopslina/cert-manager-cainjector:v1.17.4"
+  },
+  {
+    "source": "quay.io/jetstack/cert-manager-webhook:v1.17.4",
+    "target": "ccr.ccs.tencentyun.com/devopslina/cert-manager-webhook:v1.17.4"
+  },
+  {
+    "source": "quay.io/jetstack/cert-manager-controller:v1.17.4",
+    "target": "ccr.ccs.tencentyun.com/devopslina/cert-manager-controller:v1.17.4"
+  },
+  {
+    "source": "registry.gitlab.com/gitlab-org/gitlab-runner:alpine-v18.3.1",
+    "target": "ccr.ccs.tencentyun.com/devopslina/gitlab-runner:alpine-v18.3.1"
+  },
+  {
+    "source": "registry.gitlab.cn/cng-images/gitlab-shell:v14.45.2",
+    "target": "ccr.ccs.tencentyun.com/devopslina/gitlab-shell:v14.45.2"
   }
 ]
+
+
+
+
 
 
 
